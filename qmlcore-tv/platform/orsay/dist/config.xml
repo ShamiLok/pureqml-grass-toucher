@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns="http://www.samsung.com/">
+  <cpname></cpname>
+  <cplogo></cplogo>
+  <cpauthjs></cpauthjs>
+  <ThumbIcon>thumbIcon.png</ThumbIcon>
+  <BigThumbIcon>bigThumbIcon.png</BigThumbIcon>
+  <ListIcon>listIcon.png</ListIcon>
+  <BigListIcon>bigListIcon.png</BigListIcon>
+  <category></category>
+  <autoUpdate>n</autoUpdate>
+  <ver>1.000</ver>
+  <mgrver></mgrver>
+  <fullwidget>y</fullwidget>
+  <type>user</type>
+  <srcctl>y</srcctl>
+  <ticker>n</ticker>
+  <childlock>n</childlock>
+  <videomute>n</videomute>
+  <dcont>y</dcont>
+  <widgetname>{{ title }}</widgetname>
+  <description></description>
+  <width>{{ resolutionWidth | default(1280) }}</width>
+  <height>{{ resolutionHeight | default(720) }}</height>
+  <author>
+    <name>{{ author.name | default('John Doe') if author is defined else 'John Doe' }}</name>
+    <email>{{ author.email if author is defined else '' }}</email>
+    <link>{{ author.site if author is defined else '' }}</link>
+    <organization>{{ author.organization | default('PureQML Team') if author is defined else 'PureQML Team' }}</organization>
+  </author>
+</widget>

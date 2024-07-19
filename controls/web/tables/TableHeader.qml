@@ -1,0 +1,3 @@
+Repeater {
+	htmlTag: "thead";
+}

@@ -1,0 +1,3 @@
+TableElement {
+	htmlTag: "td";
+}

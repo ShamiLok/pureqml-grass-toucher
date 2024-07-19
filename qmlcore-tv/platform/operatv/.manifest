@@ -1,0 +1,4 @@
+{
+	"strict": false,
+	"requires": ["video.html5"]
+}

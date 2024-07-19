@@ -1,0 +1,17 @@
+{
+	"id": "com.{{ title | default('pureqml') }}.app",
+	"version": "{{ version | default('1.0.0') }}",
+	"vendor": "{{ author.name | default('Jhon Doe') if author is defined else 'Jhon Doe' }}",
+	"type": "web",
+	"main": "index.html",
+	"title": "{{ title | default('pureqml') }}",
+	"bgColor": "{{ iconColor | default('#cccccc') }}",
+	"bgImage": "preview.png",
+	"icon": "icon.png",
+	"largeIcon": "icon.png",
+	"resolution":"{{ resolutionWidth | default(1280) }}x{{ resolutionHeight | default(720) }}",
+	"iconColor": "{{ iconColor | default('#eeeeee') }}",
+	"splashBackground": "splash.png",
+	"disableBackHistoryAPI":true,
+	"uiRevision":1
+}
