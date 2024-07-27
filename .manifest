@@ -1,19 +1,19 @@
 {
-	"name": "pureosd",
+	"name": "grass toucher",
 	"platforms": ["web", "webos", "tizen", "netcast", "orsay", "androidtv"],
 	"properties": {
-		"title": "pureosd",
-		"virtual.width": 1280,
-		"virtual.height": 720,
-		"resolutionWidth": 1280,
-		"resolutionHeight": 720,
+		"title": "grass toucher",
+		"virtual.width": 1920,
+		"virtual.height": 1080,
+		"resolutionWidth": 1920,
+		"resolutionHeight": 1080,
 		"author": {
-			"name": "Alexey Pobery",
-			"email": "poberyaa@gmail.com",
-			"organization": "pureqml",
-			"site": "https://pureqml.com/"
+			"name": "ShamiLok",
+			"email": "",
+			"organization": "",
+			"site": ""
 		},
-		"domain": "com.pureqml"
+		"domain": ""
 	},
 	"templater": "jinja2"
 }
